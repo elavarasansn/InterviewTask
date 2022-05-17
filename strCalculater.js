@@ -12,4 +12,8 @@ let sum=0;
     return sum;
     
 }  
-add("25");
+add("");
+add("1");
+add("1\n2,3");
+add("2,5");
+add("//;\n1;2");
