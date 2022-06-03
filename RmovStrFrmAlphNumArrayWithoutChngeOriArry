@@ -1,0 +1,18 @@
+let arr = [1,'b',2,'c','x',2,3,5,'t','m','z'];
+
+function removeStr(arr){
+
+
+for(let i=0;i<arr.length;i++){
+	if(isNaN(arr[i]))
+	{
+		arr.splice(i,1);
+		removeStr(arr);
+		break;
+	   
+	}
+    
+}
+
+}
+removeStr(arr);
