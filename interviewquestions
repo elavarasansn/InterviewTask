@@ -1,0 +1,59 @@
+how to get the second highest salary in table ?
+what is local index and global index in mysql ?
+how to achieve the event binding and attribute binding ?
+what is difference between jit and aot compiler ?
+what is difference between observable and promises ? 
+how to stop observable ?
+what is Coercion  ?
+what is difference between session and local storage ?
+how to check equality of two objects ?
+what will be the output for the following code ?
+--------------------------------------
+q:1
+if(""&&10){
+console.log("code running");
+}
+--------------------------------------
+q:2
+let x=[1,2,3,4]
+let num=[];
+
+for(let i=0;i<x.length;i++){
+ num.push(i+1)
+}
+console.log(num)
+--------------------------------------
+let a =17;
+let b=44;
+What will be the output
+const a = [1,2,3,4]
+a[100] = 20;
+console.log(a.length)
+100
+
+--------------------------------------
+var a1 = 1;
+var b1 = 0;
+
+while(a1<=3) {
+    a1++;
+    console.log("aa",a1);
+    b1 += a1 * 2;
+    console.log(b1);
+};
+
+--------------------------------------
+const message = {
+    name:"apple",
+    greet : function() {
+        setTimeout(()=>console.log(`The name of furit is ${this.name}`))
+        setTimeout(function(){
+            console.log(`${this.name} is the name of the fruit`);
+        },1000)
+    }
+};
+
+message.greet()
+The name of furit is apple
+apple  is the name of the fruit
+
